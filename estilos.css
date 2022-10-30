@@ -209,3 +209,27 @@ footer{
   .fa-google {
     color: white;
   }
+
+  @media only screen and (max-width:600px){
+    .mostrar{
+        background-color: gray;
+        width: 60%;
+        max-height: 200px;
+        min-height: 200px;
+        margin: 20px;
+        border-radius: 5px;
+        border: 2px solid #3C4048;
+        overflow-y: scroll
+    }
+    form{
+        width: 200px;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        height: 400px;
+        border-radius: 5px;
+    }
+
+  }
+    
+ 
