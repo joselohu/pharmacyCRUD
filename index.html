@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>Pharmacy CRUD</title>
+  </head>
+  <body>
+    <header>
+        <center><img id="logo" src="./logo blanco.png" alt="logo"/></center>
+    </header>
+
+    <main>
+      <form id="formulario">
+        <div>
+            <label for="productId"></label>
+            <input placeholder="Product ID" class="iconID" type="text" id="productId" />
+          </div>
+        <div>
+          <label for="name"></label>
+          <input placeholder="Product Name" class="iconName" type="text" id="name" />
+        </div>
+        <div>
+          <label for="components"></label>
+          <input placeholder="Components" class="iconComponents" type="text" id="components" />
+        </div>
+        <div>
+            <label for="price"></label>
+            <input placeholder="Price" class="iconPrice" type="number" min="0.01" step="0.01" max="2500" id="price" />
+          </div>
+        <div id="radio">
+          <label id="inStockLabel"><input
+              type="radio"
+              name="prioridad"
+              id="prioridad"
+              class="inStock"
+              value="In Stock"
+              checked
+            />In Stock</label>
+          <label id="outOfStockLabel">
+            <input
+              type="radio"
+              class="outOfStock"
+              name="prioridad"
+              id="prioridad"
+              value="Out of Stock"
+            />
+            Out of Stock
+          </label>
+        </div>
+        <div id="btnEnviar">
+          <input id="btn" type="button" value="Create" />
+        </div>
+        <div>
+          <input id="btn2" type="button" value="Update" style="display: none" />
+        </div>
+        <span></span>
+      </form>
+
+      <div class="mostrar">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Stock</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+       
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+  <footer>
+    <p>Author: José David López Huertas</p>
+    <a href="https://www.linkedin.com/in/jos%C3%A9-l%C3%B3pez-huertas-95b742158/" target="_blank" class="fa fa-linkedin-square"></a>
+    <a href="https://wa.me/55161655" target="_blank" class="fa fa-whatsapp"></a>
+    <a href="jose.lopez.oct.11@gmail.com" target="_blank" class="fa fa-google"></a>
+    </footer>
+</html>
