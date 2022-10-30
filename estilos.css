@@ -229,7 +229,11 @@ footer{
         height: 200px;
         border-radius: 5px;
     }
-
+  
+    #logo{
+        width: 250px;
+        height: 125px;
+    }
   }
     
  
