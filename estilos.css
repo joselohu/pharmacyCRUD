@@ -236,8 +236,12 @@ footer{
     th{
         font-size: 12px;
     }
-    tr{
+    tr:nth-child(odd){
         font-size:12px;
+    }
+
+    tr::nth-child(even){
+        font-size: 12px;
     }
   }
     
