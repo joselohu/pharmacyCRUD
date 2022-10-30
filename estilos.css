@@ -233,6 +233,10 @@ footer{
         width: 250px;
         height: 125px;
     }
+
+    table{
+        font-size:12px;
+    }
     th{
         font-size: 12px;
     }
