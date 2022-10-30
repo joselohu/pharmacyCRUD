@@ -49,25 +49,25 @@ input{
 }
 .iconID{
     padding-left: 25px;
-    background: url("./icons8-checked-identification-documents-48.png") no-repeat left;
+    background: url("./images/icons8-checked-identification-documents-48.png") no-repeat left;
     background-size: 20px;
     background-color: white;
   }
   .iconName {
     padding-left: 25px;
-    background: url("./icons8-name-tag-24.png") no-repeat left;
+    background: url("./images/icons8-name-tag-24.png") no-repeat left;
     background-size: 20px;
     background-color: white;
   }
   .iconComponents {
     padding-left: 25px;
-    background: url("./icons8-pills-48.png") no-repeat left;
+    background: url("./images/icons8-pills-48.png") no-repeat left;
     background-size: 20px;
     background-color: white;
   }
 .iconPrice {
     padding-left: 25px;
-    background: url("./icons8-dolar-64.png") no-repeat left;
+    background: url("./images/icons8-dolar-64.png") no-repeat left;
     background-size: 20px;
     background-color: white;
   }
